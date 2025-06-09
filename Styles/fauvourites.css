@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(to top, #4b5945, #a4b465, #66785f, #4b5945);
+  color: white;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: "Chewy", system-ui;
+}
+p {
+  text-align: justify;
+  font-family: "Indie Flower", cursive;
+  font-size: 22px;
+  line-height: 25px;
+}
+hr {
+  border-color: #2e073f;
+}
+img{
+  border: dotted #C1CFA1 5px;
+  transition: transform 1s ease-in-out 0.1;
+}
+img:hover{
+transform: skewY(5deg);
+}

@@ -1,0 +1,135 @@
+.head {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Savate", sans-serif;
+  font-size: 20px;
+}
+.head h1{
+ margin-left: 35%;
+ animation-name: colorchange;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+.navparent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main {
+  grid-area: maincontent;
+  font-family: "Edu QLD Hand", cursive;
+}
+.side {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.end {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  font-family: "Fascinate Inline", system-ui;
+  font-size: 30px;
+}
+
+.parent {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header header" "maincontent sidebar" "footer footer";
+  grid-template-rows: 15% auto 10%;
+  grid-template-columns: auto 25%;
+}
+body {
+  margin: 0px;
+  background-image: linear-gradient(#FFDCDC, #FFD6BA, #8DD8FF, #BBFBFF);
+  background-attachment: fixed;
+}
+.nav {
+  background-color: #7C444F;
+  border: black solid 2px;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+.nav a{
+color: #FBF3B9;
+text-decoration: none;
+font-family: "Cherry Bomb One", system-ui;
+font-size: 20px;
+transition: color 1s ease 0.1s;
+}
+.nav a:hover{
+color: black;
+}
+.button{
+  background-color: #7C444F;
+  border: solid black 2px;
+  padding: 5px;
+  border-radius:10px ;
+  transition: color 1s ease 0.1s;
+}
+.button a{
+  color: #FBF3B9;
+  text-decoration: none;
+  font-family: "Cherry Bomb One", system-ui;
+  font-size: 20px;
+  transition: color 1s ease 0.1s;
+}
+.button:hover{
+background-color: powderblue;
+}
+.button a:hover{
+  color: black;
+}
+.card{
+  width: 25%;
+  background-image: linear-gradient(#B5828C,#E5989B,#FFB4A2,#FFCDB2);
+  border: black groove 5px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: transform 1s ease-in-out 0.1s;
+}
+img{
+  width: 100%;
+  border-radius: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+
+}
+.main h1{
+  text-align: center;
+}
+.end img{
+  width: 40px;
+  margin-left: 10px;
+}
+  .nav:hover{
+    background-color: powderblue;
+  }
+@keyframes colorchange{
+  0%{
+color: #804fc5;
+  }
+  25%{
+color: #5b61cd;
+  }
+50%{
+color: #0781f3; 
+}
+75%{
+color: #37305b;
+}
+}
+.card:hover{
+  transform: rotate(10deg);
+}

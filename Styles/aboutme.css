@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(to top, #640d5f, #d91656, #eb5b00, #ffb200);
+  color: beige;
+}
+h1 {
+  text-align: center;
+  font-family: "Tagesschrift", system-ui;
+}
+p {
+  text-align: justify;
+  font-family: "Edu QLD Beginner", cursive;
+  font-size: 22px;
+  line-height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+hr {
+  border-color: #071952;
+}
+.Moumitha{
+  border:ridge #E55050 10px;
+}
+.Family{
+  border: ridge #9A4444  10px;
+}
+.Devi{
+  border: ridge #BB3E00 10px;
+}
+.Balu{
+  border: ridge #790252 10px;
+}
+.Hanvika{
+  border: ridge #2E073F 10px;
+}
+img{
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  transition: transform 2s ease-in-out 0.1s;
+}
+img:hover{
+  transform: translateX(35%);
+}

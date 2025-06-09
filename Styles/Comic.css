@@ -1,0 +1,35 @@
+.DC{
+width: 25%;
+background-image: linear-gradient(#F7CFD8,#F4F8D3);
+border: ridge 8px #872341;
+padding: 8px;
+}
+.DC img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+}
+h1{
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 40px;
+}
+.Parent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items:center */
+    row-gap: 30px;
+}
+body{
+    background-image: linear-gradient(#F5EFFF,#E5D9F2,#CDC1FF,#A294F9);
+
+}
+p{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}

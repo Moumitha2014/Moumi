@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(#756AB6,#AC87C5,#E0AED0,#FFE5E5);
+} 
+h1{
+    text-align: center;
+    font-family: "Comic Relief", system-ui;
+}
+p{
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Dancing Script", cursive;
+}
+hr{
+    border-color: #FED2E2;
+}
+li{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
