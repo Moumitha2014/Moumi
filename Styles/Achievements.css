@@ -1,0 +1,47 @@
+.achievements {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.achievements h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.checkmark {
+  font-size: 1.5rem;
+  color: #4caf50;
+  margin-right: 0.75rem;
+  line-height: 1;
+}
+
+.achievements-list strong {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.achievements-list p {
+  margin: 0;
+  color: #555;
+}
+body {
+  background-image: linear-gradient(to top, #ff1100, #f5391c, #eb5b00, #ffb200);
+  color: rgb(0, 0, 0);
+}
